@@ -1,2 +1,4 @@
 # Uncertainty-Aware-Semi-Supervised-Crowd-Counting-via-Consistency-Regularized-Surrogate-Task
-Code for CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via \\ Consistency-Regularized Surrogate Task'
+CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consistency-Regularized Surrogate Task'
+
+Our code will be made available if the manuscripy accepted.
