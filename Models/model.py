@@ -138,119 +138,32 @@ class BackEnd(nn.Module):
     def forward(self, *input):
         conv2_2, conv3_1, conv3_3, conv4_1, conv4_3, conv5_1, conv5_3 = input
 
-        # print('conv2_2',conv2_2)
-        # print('conv3_1', conv3_1)
-        # print('conv3_3', conv3_3)
-        # print('conv4_1', conv4_1)
-        # print('conv4_3', conv4_3)
-        # print('conv5_1', conv5_1)
-        # print('conv5_3', conv5_3)
-
-        #conv5_3 = self.dropout(conv5_3)
-        # conv5_3, conv5_1 : C 512
-        # conv4_3, conv4_1 : C 512
-        # conv3_3, conv3_1 : C 256
-        # conv2_2 : C 128
-
-        """
-        task binary
-        """
-        #conv5_1_t1 = self.att_1_first(conv5_1)
-        #conv5_3_t1 = conv5_1_t1 * conv5_3
-
-        #conv4_1_t1 = self.att_2_first(conv4_1)
-        #conv4_3_t1 = conv4_1_t1 * conv4_3
-
-        #conv3_1_t1 = self.att_3_first(conv3_1)
-        #conv3_3_t1 = conv3_1_t1 * conv3_3
-
-        # decoder part task1
-
-
         input_t1 = self.upsample(conv5_3)
         input_t1 = torch.cat([input_t1, conv4_3], 1)
         input_t1 = self.conv1(input_t1)
         input_t1 = self.conv2(input_t1)
         input_t1 = self.upsample(input_t1)
-
-        #print('input_t1', input_t1)
         input_t1 = torch.cat([input_t1, conv3_3], 1)
         input_t1 = self.conv3(input_t1)
         input_t1 = self.conv4(input_t1)
         input_t1 = self.upsample(input_t1)
-        #print('input_t12', input_t1)
         input_t1 = torch.cat([input_t1, conv2_2], 1)
         input_t1 = self.conv5(input_t1)
         input_t1 = self.conv6(input_t1)
         input_t1 = self.conv7(input_t1)
         input_t1 = self.upsample(input_t1)
-        #print(input_t1)
 
         input_t1 = self.dropout(input_t1)
 
-
-        """
-            task semantic
-        """
-        # merge_conv5_1_2 = torch.cat([conv5_1, conv5_1_t1], 1)
-        # merge_conv4_1_2 = torch.cat([conv4_1, conv4_1_t1], 1)
-        # merge_conv3_1_2 = torch.cat([conv3_1, conv3_1_t1], 1)
-        #
-        # conv5_1_t2 = self.att_1(merge_conv5_1_2)
-        # conv5_3_t2 = conv5_1_t2 * conv5_3
-        #
-        # conv4_1_t2 = self.att_2(merge_conv4_1_2)
-        # conv4_3_t2 = conv4_1_t2 * conv4_3
-        #
-        # conv3_1_t2 = self.att_3(merge_conv3_1_2)
-        # conv3_3_t2 = conv3_1_t2 * conv3_3
-
-        # decoder part task2
-        # input_t2 = self.upsample(conv5_3_t2)
-        # input_t2 = torch.cat([input_t2, conv4_3_t2], 1)
-        # input_t2 = self.conv1(input_t2)
-        # input_t2 = self.conv2(input_t2)
-        # input_t2 = self.upsample(input_t2)
-        #
-        # input_t2 = torch.cat([input_t2, conv3_3_t2], 1)
-        # input_t2 = self.conv3(input_t2)
-        # input_t2 = self.conv4(input_t2)
-        # input_t2 = self.upsample(input_t2)
-        #
-        # input_t2 = torch.cat([input_t2, conv2_2], 1)
-        # input_t2 = self.conv5(input_t2)
-        # input_t2 = self.conv6(input_t2)
-        # input_t2 = self.conv7(input_t2)
-        # input_t2 = self.upsample(input_t2)
-
-        """
-            task density
-        """
-        # merge_conv5_1_2_3 = torch.cat([conv5_1, conv5_1_t2], 1)
-        # merge_conv4_1_2_3 = torch.cat([conv4_1, conv4_1_t2], 1)
-        # merge_conv3_1_2_3 = torch.cat([conv3_1, conv3_1_t2], 1)
-
-        # conv5_1_t3 = self.att_1(merge_conv5_1_2_3)
-        # conv5_3_t3 = conv5_1_t3 * conv5_3
-        #
-        # conv4_1_t3 = self.att_2(merge_conv4_1_2_3)
-        # conv4_3_t3 = conv4_1_t3 * conv4_3
-        #
-        # conv3_1_t3 = self.att_3(merge_conv3_1_2_3)
-        # conv3_3_t3 = conv3_1_t3 * conv3_3
-
-        # decoder part task3
         input_t3 = self.upsample(conv5_3)
         input_t3 = torch.cat([input_t3, conv4_3], 1)
         input_t3 = self.conv1(input_t3)
         input_t3 = self.conv2(input_t3)
         input_t3 = self.upsample(input_t3)
-
         input_t3 = torch.cat([input_t3, conv3_3], 1)
         input_t3 = self.conv3(input_t3)
         input_t3 = self.conv4(input_t3)
         input_t3 = self.upsample(input_t3)
-
         input_t3 = torch.cat([input_t3, conv2_2], 1)
         input_t3 = self.conv5(input_t3)
         input_t3 = self.conv6(input_t3)
@@ -288,11 +201,9 @@ class BaseConv(nn.Module):
 class Smooth_heaviside(nn.Module):
     def __init__(self, k=None, m=None):
         super(Smooth_heaviside, self).__init__()
-        #self.in_features = in_features
         self.k = k
         self.m = m
     def forward(self, x):
         x1 = 2 - 1 / (torch.sigmoid(self.k * x) / self.m)
         x2 = torch.sigmoid(self.k * x)
         return x1 * x2
-
