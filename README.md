@@ -21,6 +21,7 @@ The unlabeled data index of SHA train data are in unlabeled_images_index.txt
 
 
 --------------JHU-----------------
+
 --Download chekpoint_best.pth and put into ./checkpoints/JHU
 
 --Download new_data_JHU and img , then put them into ./Data_Crowd_Counting/JHU/test
