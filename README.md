@@ -1,6 +1,8 @@
 # Uncertainty-Aware-Semi-Supervised-Crowd-Counting-via-Consistency-Regularized-Surrogate-Task
 CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consistency-Regularized Surrogate Task'
 
+------------SHA-----------
+
 --Download chekpoint_best.pth and put into ./checkpoints/SHA
 
 https://drive.google.com/file/d/1aWX2s64dSDRkj-oMxqe3tepYzDhW5rNL/view?usp=sharing
@@ -17,5 +19,15 @@ https://drive.google.com/file/d/1hkRHRXmUbF84zT4zIqrAFRBpqNpdMmlu/view?usp=shari
 
 The unlabeled data index of SHA train data are in unlabeled_images_index.txt
 
+
+--------------JHU-----------------
+--Download chekpoint_best.pth and put into ./checkpoints/JHU
+
+--Download new_data_JHU and img , then put them into ./Data_Crowd_Counting/JHU/test
+
+
+--Run the test.py
+
+The unlabeled data index of JHU train data are in unlabeled_images_index_JHU.txt
 
 More code will be made available if the manuscript is accepted.
