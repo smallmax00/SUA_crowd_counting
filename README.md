@@ -5,7 +5,6 @@ CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consis
 
 --Download chekpoint_best.pth and put into ./checkpoints/SHA
 
-https://drive.google.com/file/d/1aWX2s64dSDRkj-oMxqe3tepYzDhW5rNL/view?usp=sharing
 
 
 --Download new_data and images , then put them into ./Data_Crowd_Counting/ShanghaiTech_Crowd_Counting_Dataset/part_A_final/test_data
@@ -24,8 +23,15 @@ The unlabeled data index of SHA train data are in unlabeled_images_index.txt
 
 --Download chekpoint_best.pth and put into ./checkpoints/JHU
 
+https://drive.google.com/file/d/1aWX2s64dSDRkj-oMxqe3tepYzDhW5rNL/view?usp=sharing
+
+
 --Download new_data_JHU and img , then put them into ./Data_Crowd_Counting/JHU/test
 
+https://drive.google.com/file/d/1EARfJpQJkuMQIPJe-rtz5x3wyPitwe14/view?usp=sharing
+
+
+https://drive.google.com/file/d/1yFVxtiKsrNMjhodcP8ujI_Ue7zRw5tUp/view?usp=sharing
 
 --Run the test.py
 
