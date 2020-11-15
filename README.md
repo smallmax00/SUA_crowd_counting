@@ -14,7 +14,7 @@ https://drive.google.com/file/d/16t_ZR1lePQ9WxQUjY_rBoz8VO_0LMLSt/view?usp=shari
 https://drive.google.com/file/d/1hkRHRXmUbF84zT4zIqrAFRBpqNpdMmlu/view?usp=sharing
 
 
---Run the test.py
+--Run the test_SHA.py
 
 The unlabeled data index of SHA train data are in unlabeled_images_index.txt
 
@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1EARfJpQJkuMQIPJe-rtz5x3wyPitwe14/view?usp=shari
 
 https://drive.google.com/file/d/1yFVxtiKsrNMjhodcP8ujI_Ue7zRw5tUp/view?usp=sharing
 
---Run the test.py
+--Run the test_JHU.py
 
 The unlabeled data index of JHU train data are in unlabeled_images_index_JHU.txt
 
