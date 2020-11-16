@@ -5,7 +5,7 @@ CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consis
 
 --Download chekpoint_best.pth and put into ./checkpoints/SHA
 
-
+https://drive.google.com/file/d/1UgCasGAr0SqX8OIVL-vw4EEvHoCg1yHk/view?usp=sharing
 
 --Download new_data and images , then put them into ./Data_Crowd_Counting/ShanghaiTech_Crowd_Counting_Dataset/part_A_final/test_data
 
