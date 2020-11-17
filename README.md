@@ -13,7 +13,6 @@ https://drive.google.com/file/d/16t_ZR1lePQ9WxQUjY_rBoz8VO_0LMLSt/view?usp=shari
 
 https://drive.google.com/file/d/1hkRHRXmUbF84zT4zIqrAFRBpqNpdMmlu/view?usp=sharing
 
-
 --Run the test_SHA.py
 
 The unlabeled data index of SHA train data are in unlabeled_images_index.txt
@@ -28,8 +27,7 @@ https://drive.google.com/file/d/1aWX2s64dSDRkj-oMxqe3tepYzDhW5rNL/view?usp=shari
 
 --Download new_data_JHU and img , then put them into ./Data_Crowd_Counting/JHU/test
 
-https://drive.google.com/file/d/1EARfJpQJkuMQIPJe-rtz5x3wyPitwe14/view?usp=sharing
-
+https://drive.google.com/file/d/1EARfJpQJkuMQIPJe-rtz5x3wyPitwe14/view?usp=sharing 
 
 https://drive.google.com/file/d/1yFVxtiKsrNMjhodcP8ujI_Ue7zRw5tUp/view?usp=sharing
 
