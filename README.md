@@ -2,7 +2,7 @@
 CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consistency-Regularized Surrogate Task'
 
 ---------------------------
-Environment: requirements.txt
+Dependencies: requirements.txt
 
 
 
