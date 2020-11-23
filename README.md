@@ -1,6 +1,10 @@
 # Uncertainty-Aware-Semi-Supervised-Crowd-Counting-via-Consistency-Regularized-Surrogate-Task
 CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consistency-Regularized Surrogate Task'
 
+Environment: requirements.txt
+
+
+
 ------------SHA-----------
 
 --Download chekpoint_best.pth and put into ./checkpoints/SHA
