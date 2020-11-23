@@ -7,6 +7,7 @@ Environment: requirements.txt
 
 
 ------------SHA-----------
+--------------------------
 
 --Download chekpoint_best.pth and put into ./checkpoints/SHA
 
@@ -24,6 +25,7 @@ The unlabeled data index of SHA train data are in unlabeled_images_index.txt
 
 
 --------------JHU-----------------
+---------------------------------
 
 --Download chekpoint_best.pth and put into ./checkpoints/JHU
 
