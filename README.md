@@ -3,7 +3,7 @@ CVPR2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consis
 
 ---------------------------
 Environment: requirements.txt
-----------------------------
+
 
 
 ------------SHA-----------
