@@ -1,5 +1,5 @@
-# Uncertainty-Aware-Semi-Supervised-Crowd-Counting-via-Consistency-Regularized-Surrogate-Task
-ICCV2021 submission 'Uncertainty-Aware Semi-Supervised Crowd Counting via Consistency-Regularized Surrogate Task'
+# Spatial Uncertainty-Aware-Semi-Supervised-Crowd-Counting
+ICCV2021 submission 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
 
 ---------------------------
 Dependencies: requirements.txt
