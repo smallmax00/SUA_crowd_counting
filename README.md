@@ -1,6 +1,6 @@
 # Spatial Uncertainty-Aware-Semi-Supervised-Crowd-Counting
 ICCV2021 submission 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
-Training code will be released if the manuscript is accepted
+--Training code will be released if the manuscript is accepted
 ---------------------------
 Dependencies: requirements.txt
 
