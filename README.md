@@ -1,5 +1,5 @@
 # Spatial Uncertainty-Aware-Semi-Supervised-Crowd-Counting
-ICCV2021 submission 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
+ICCV2021 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
 ---------------------------
 Dependencies: requirements.txt
 
