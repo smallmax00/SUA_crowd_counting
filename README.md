@@ -3,7 +3,7 @@ ICCV2021 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
 ---------------------------
 Dependencies: requirements.txt
 
-
+Training code: under prepared
 
 ------------SHA-----------
 --------------------------
