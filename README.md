@@ -35,3 +35,13 @@ https://drive.google.com/file/d/1aWX2s64dSDRkj-oMxqe3tepYzDhW5rNL/view?usp=shari
 The unlabeled data index of JHU train data are in unlabeled_images_index_JHU.txt
 
 
+# Citation
+If you find our work useful or our work gives you any insights, please cite:
+```
+@inproceedings{chen2021variational,
+  title = {Variational Attention: Propagating Domain-Specific Knowledge for Multi-Domain Learning in Crowd Counting},
+  author = {Chen, Binghui and Yan, Zhaoyi and Li, Ke and Li, Pengyu and Wang, Biao and Zuo, Wangmeng and Zhang, Lei}
+  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+  year = {2021}
+}
+```
