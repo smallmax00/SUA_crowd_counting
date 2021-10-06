@@ -38,10 +38,13 @@ The unlabeled data index of JHU train data are in unlabeled_images_index_JHU.txt
 # Citation
 If you find our work useful or our work gives you any insights, please cite:
 ```
-@inproceedings{meng2021spatial,
-  title = {Spatial Uncertainty-Aware Semi-Supervised Crowd Counting},
-  author = {Meng, Yanda and Zhang, Hongrun and Zhao, Yitian and Yang, Xiaoyun and Qian, Xuehsheng and Huang, Xiaowei and Zheng, Yalin}
-  booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
-  year = {2021}
+@InProceedings{Meng_2021_ICCV,
+    author    = {Meng, Yanda and Zhang, Hongrun and Zhao, Yitian and Yang, Xiaoyun and Qian, Xuesheng and Huang, Xiaowei and Zheng, Yalin},
+    title     = {Spatial Uncertainty-Aware Semi-Supervised Crowd Counting},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {15549-15559}
 }
+
 ```
