@@ -3,7 +3,7 @@ ICCV2021 'Spatial Uncertainty-Aware Semi-Supervised Crowd Counting'
 ---------------------------
 Dependencies: requirements.txt
 
-Training code: under prepared, you can check https://github.com/yulequan/UA-MT, as some of our model's structure are built based on it. Thanks Dr. Lequan for such a wonderful project.
+Training code: under prepared, you can check https://github.com/yulequan/UA-MT, as some of our model's structure are built based on it. Thanks Dr. Yu Lequan for such a wonderful project.
 
 ------------SHA-----------
 --------------------------
